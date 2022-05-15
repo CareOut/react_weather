@@ -1,0 +1,122 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #152e51;
+}
+
+.container {
+  width: 440px;
+  margin: 0 auto;
+}
+
+.weather__other {
+  padding: 25px;
+  background-color: #0f284c;
+}
+
+.weather__other-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wind__value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.humidity__value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.preseption__value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.wind__title,
+.humidity__title,
+.preseption__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.other__wind {
+  width: 32%;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #0f2d57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px 10px 10px;
+}
+
+.other__humidity {
+  width: 32%;
+  background-color: #0f2d57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px 10px 10px;
+}
+
+.other__preseption {
+  width: 32%;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #0f2d57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px 10px 10px;
+}
+
+.preseption__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

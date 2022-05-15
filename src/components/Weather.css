@@ -1,0 +1,119 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background-color: #152e51;
+}
+
+.container {
+  width: 440px;
+  margin: 0 auto;
+}
+
+.weather__main {
+  min-height: 420px;
+  padding: 25px;
+  background-color: #0f284c;
+}
+
+.weather__main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+.weather__main-temperature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.temperature__value {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+  text-transform: capitalize;
+}
+
+.temperature__init {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.temperature__init p {
+  position: absolute;
+  bottom: 0;
+}
+
+.weather__main-city {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+  margin-bottom: 25px;
+}
+
+.weather__main-clouds {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #caf7ff;
+}
+
+.weather__main-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.weather__icon {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=Weather.css.map */
