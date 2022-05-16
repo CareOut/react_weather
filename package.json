@@ -2,7 +2,7 @@
   "name": "react_weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://careout.github.io/weather/",
+  "homepage": "https://careout.github.io/weather/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
