@@ -1,6 +1,6 @@
 import Main from "./pages/Main";
 import First from "./pages/First";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
@@ -8,12 +8,12 @@ function App() {
   const [modal, setModal] = useState(false);
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState({
-    name: "",
-    temperature: "",
-    wind: "",
-    clouds: "",
-    humidity: "",
-    preseption: "",
+    name: "Ozersk",
+    temperature: "20",
+    wind: "4",
+    clouds: "clouds",
+    humidity: "52",
+    preseption: "705",
     icon: "",
   });
   const changeCity = (e) => setCity(e.target.value);
